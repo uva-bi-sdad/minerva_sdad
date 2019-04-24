@@ -1,0 +1,22 @@
+# Minerva Experiment Data
+
+## Description
+The data contained in this folder is for the experimental sessions conducted on 13 June 2018. There were four experiments conducted:
+
+1. ID 1o19pz9u: [Session 7] - WALL; LOCAL; Seq. 456; H-L Order
+2. ID zjb1wxmz: [Session 4] - WALL; GLOBAL; Seq. 456; H-L Order
+3. ID i2vtto7j: [Session 7] - WALL; LOCAL; Seq. 456; H-L Order
+4. ID jllmf4m8: [Session 14]- WAll; LOCAL; Seq. 123; H-L Order
+
+## Experiment Notes
+1. Session ID 1o19pz9u (Session 7) had two users be advanced, which converted their players into bots. These are Players 9 and 12, their participant ID's: 2b9bem8j and gryacce0 
+2. Throughout all experiments, several players needed to refresh their screens or wait - this is a sign that the websockets are not connecting as needed.
+3. Players to ignore (on top of item 1):
+- c08y0zos
+- 4kbi0q2x
+- 2b9bem8j
+- gryacce0
+- 34ln0jri
+
+
+

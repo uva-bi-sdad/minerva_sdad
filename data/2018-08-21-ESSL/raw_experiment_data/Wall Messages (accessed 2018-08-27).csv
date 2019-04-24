@@ -1,0 +1,30 @@
+session.code,subsession__round_number,network_id,network_position,network_type,createdBy__bot,createdBy__code,createdBy__avatar,createdBy__threshold,createdBy__position,wall__node__bot,wall__code,wall__avatar,wall__threshold,wall__position,message,deleted,datetime
+jn13hsme,1,92,2,star,True,2but2iwa,Lizard,0.0,1,True,BOT,Octopus,0.0,4,I will participate.,False,2018-06-25 22:58:59.874198+00:00
+jn13hsme,2,95,2,star,True,2but2iwa,Tiger,1.0,1,True,BOT,Fish,1.0,3,I will participate.,False,2018-06-25 22:59:55.581324+00:00
+jn13hsme,3,98,2,star,True,2but2iwa,Dolphin,0.0,1,True,BOT,Bull,1.0,4,I will participate.,False,2018-06-25 23:01:14.928301+00:00
+jn13hsme,4,101,2,star,True,2but2iwa,Tiger,0.0,1,True,BOT,Horse,1.0,5,I will participate.,False,2018-06-25 23:04:06.689547+00:00
+jn13hsme,5,104,2,star,True,2but2iwa,Koala,1.0,1,True,BOT,Deer,1.0,3,I will participate.,False,2018-06-25 23:04:25.360111+00:00
+jn13hsme,6,107,2,circle,True,2but2iwa,Shark,0.0,1,True,BOT,Koala,0.0,2,I will participate.,False,2018-06-25 23:04:46.507569+00:00
+fyzongth,1,182,2,star,True,2nrqev3b,Lizard,1.0,1,True,BOT,Koala,1.0,4,I will participate.,False,2018-06-25 23:07:36.547605+00:00
+fyzongth,2,185,2,star,True,2nrqev3b,Tiger,0.0,1,True,BOT,Horse,0.0,4,I will participate.,False,2018-06-25 23:07:53.098813+00:00
+fyzongth,3,188,2,star,True,2nrqev3b,Dolphin,0.0,1,True,BOT,Hippo,1.0,5,I will participate.,False,2018-06-25 23:08:09.724445+00:00
+fyzongth,3,188,2,star,True,2nrqev3b,Dolphin,0.0,1,True,BOT,Gorilla,1.0,4,I will participate.,False,2018-06-25 23:08:09.740145+00:00
+fyzongth,3,188,2,star,True,2nrqev3b,Dolphin,0.0,1,True,BOT,Snail,1.0,3,I will participate.,False,2018-06-25 23:08:09.751421+00:00
+fyzongth,3,188,2,star,True,2nrqev3b,Dolphin,0.0,1,True,BOT,Deer,1.0,2,I will participate.,False,2018-06-25 23:08:09.807780+00:00
+dhlvnkk5,1,1487,2,star,True,h6rho066,Lizard,1.0,1,True,BOT,Octopus,1.0,4,I will not participate.,False,2018-07-01 23:52:17.538134+00:00
+dhlvnkk5,1,1487,2,star,True,h6rho066,Lizard,1.0,1,True,BOT,Bull,1.0,5,I will not participate.,False,2018-07-01 23:52:17.539173+00:00
+dhlvnkk5,1,1487,2,star,True,h6rho066,Lizard,1.0,1,True,BOT,Duck,1.0,2,I will not participate.,False,2018-07-01 23:52:17.548412+00:00
+dhlvnkk5,1,1487,2,star,True,h6rho066,Lizard,1.0,1,True,BOT,Rhino,1.0,3,I will not participate.,False,2018-07-01 23:52:17.603426+00:00
+dhlvnkk5,2,1490,2,star,True,h6rho066,Tiger,0.0,1,True,BOT,Lizard,0.0,5,I will participate.,False,2018-07-01 23:54:42.686174+00:00
+rtalpduw,1,2342,2,star,True,fz18pfiv,Lizard,0.0,1,True,BOT,Bull,0.0,5,I will participate.,False,2018-07-03 14:35:12.598929+00:00
+rtalpduw,1,2342,2,star,True,fz18pfiv,Lizard,0.0,1,True,BOT,Snake,0.0,3,I will participate.,False,2018-07-03 14:35:12.661080+00:00
+rtalpduw,1,2342,2,star,True,fz18pfiv,Lizard,0.0,1,True,BOT,Koala,0.0,4,I will participate.,False,2018-07-03 14:35:12.670828+00:00
+rtalpduw,1,2342,2,star,True,fz18pfiv,Lizard,0.0,1,True,BOT,Duck,0.0,2,I will participate.,False,2018-07-03 14:35:12.713333+00:00
+y87f8gwl,1,2477,2,star,False,qsp9721r,Lizard,1.0,1,True,BOT,Bull,1.0,5,I will participate.,False,2018-07-03 14:40:20.992589+00:00
+y87f8gwl,1,2477,2,star,False,qsp9721r,Lizard,1.0,1,True,BOT,Octopus,1.0,4,I will participate.,False,2018-07-03 14:40:21.032190+00:00
+y87f8gwl,1,2477,2,star,False,qsp9721r,Lizard,1.0,1,True,BOT,Rhino,1.0,3,I will participate.,False,2018-07-03 14:40:21.048192+00:00
+y87f8gwl,1,2477,2,star,False,qsp9721r,Lizard,1.0,1,True,BOT,Duck,1.0,2,I will participate.,False,2018-07-03 14:40:21.101776+00:00
+y87f8gwl,2,2480,2,star,False,qsp9721r,Tiger,0.0,1,True,BOT,Lizard,0.0,5,I will participate.,False,2018-07-03 14:40:38.333817+00:00
+y87f8gwl,2,2480,2,star,False,qsp9721r,Tiger,0.0,1,True,BOT,Cat,0.0,4,I will participate.,False,2018-07-03 14:40:38.363177+00:00
+y87f8gwl,2,2480,2,star,False,qsp9721r,Tiger,0.0,1,True,BOT,Fish,0.0,3,I will participate.,False,2018-07-03 14:40:38.373545+00:00
+y87f8gwl,2,2480,2,star,False,qsp9721r,Tiger,0.0,1,True,BOT,Deer,0.0,2,I will participate.,False,2018-07-03 14:40:38.410162+00:00

@@ -1,0 +1,4 @@
+]0;/home/aschroed/git/minerva_sdad]0;aschroed@docker-s-12vcpu-48gb-nyc1-01: ~/git/minerva_sdad[01;32maschroed@docker-s-12vcpu-48gb-nyc1-01[00m:[01;34m~/git/minerva_sdad[00m$ [K]0;aschroed@docker-s-12vcpu-48gb-nyc1-01: ~/git/minerva_sdad[01;32maschroed@docker-s-12vcpu-48gb-nyc1-01[00m:[01;34m~/git/minerva_sdad[00m$ git init
+Initialized empty Git repository in /home/aschroed/git/minerva_sdad/.git/
+]0;/home/aschroed/git/minerva_sdad]0;aschroed@docker-s-12vcpu-48gb-nyc1-01: ~/git/minerva_sdad[01;32maschroed@docker-s-12vcpu-48gb-nyc1-01[00m:[01;34m~/git/minerva_sdad[00m$ git remote add origin ssh://git@sdad.policy-analytics.net:30022/sdad/minerva_sdad.git
+]0;/home/aschroed/git/minerva_sdad]0;aschroed@docker-s-12vcpu-48gb-nyc1-01: ~/git/minerva_sdad[01;32maschroed@docker-s-12vcpu-48gb-nyc1-01[00m:[01;34m~/git/minerva_sdad[00m$ git add .
