@@ -7,19 +7,19 @@ library(dplyr)
 #
 
 # Reading in files
-clicktracking_i2vtto7j <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION7_i2vtto7j/Clicktracking.xlsx")
-clicktracking_jllmf4m8 <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION14_jllmf4m8/Clicktracking.xlsx")
-clicktracking_zjb1wxmz <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION4_zjb1wxmz/Clicktracking.xlsx")
-clicktracking_2o63t7n4 <- read_excel("/home/sdal/projects/minerva/data/2018-08-13-ESSL/SESSION13_2o63t7n4/Clicktracking.xlsx")
-clicktracking_j0bmhbzp <- read_excel("/home/sdal/projects/minerva/data/2018-08-13-ESSL/SESSION22_j0bmhbzp/Clicktracking.xlsx")
-clicktracking_hzopjb8y <- read_excel("/home/sdal/projects/minerva/data/2018-08-21-ESSL/SESSION1_hzopjb8y/Clicktracking.xlsx")
+clicktracking_i2vtto7j <- read_excel("data/2018-06-13-ESSL/SESSION7_i2vtto7j/Clicktracking.xlsx")
+clicktracking_jllmf4m8 <- read_excel("data/2018-06-13-ESSL/SESSION14_jllmf4m8/Clicktracking.xlsx")
+clicktracking_zjb1wxmz <- read_excel("data/2018-06-13-ESSL/SESSION4_zjb1wxmz/Clicktracking.xlsx")
+clicktracking_2o63t7n4 <- read_excel("data/2018-08-13-ESSL/SESSION13_2o63t7n4/Clicktracking.xlsx")
+clicktracking_j0bmhbzp <- read_excel("data/2018-08-13-ESSL/SESSION22_j0bmhbzp/Clicktracking.xlsx")
+clicktracking_hzopjb8y <- read_excel("data/2018-08-21-ESSL/SESSION1_hzopjb8y/Clicktracking.xlsx")
 
-clicktracking_8otz5sb0 <- read_excel("/home/sdal/projects/minerva/data/2018-09-15-CGU/SESSION10_8otz5sb0/Clicktracking.xlsx")
-clicktracking_xsrkblkf <- read_excel("/home/sdal/projects/minerva/data/2018-09-19-VT/SESSION9_xsrkblkf/Clicktracking.xlsx")
-clicktracking_tgfavzdh <- read_excel("/home/sdal/projects/minerva/data/2018-09-19-VT/SESSION8_tgfavzdh/Clicktracking.xlsx")
-clicktracking_p5pcjkjc <- read_excel("/home/sdal/projects/minerva/data/2018-09-19-VT/SESSION2_p5pcjkjc/Clicktracking.xlsx")
-clicktracking_5uwv0c88 <- read_excel("/home/sdal/projects/minerva/data/2018-09-20-VT/SESSION16_5uwv0c88/Clicktracking.xlsx")
-clicktracking_vjny1l7l <- read_excel("/home/sdal/projects/minerva/data/2018-09-20-VT/SESSION12_vjny1l7l/Clicktracking.xlsx")
+clicktracking_8otz5sb0 <- read_excel("data/2018-09-15-CGU/SESSION10_8otz5sb0/Clicktracking.xlsx")
+clicktracking_xsrkblkf <- read_excel("data/2018-09-19-VT/SESSION9_xsrkblkf/Clicktracking.xlsx")
+clicktracking_tgfavzdh <- read_excel("data/2018-09-19-VT/SESSION8_tgfavzdh/Clicktracking.xlsx")
+clicktracking_p5pcjkjc <- read_excel("data/2018-09-19-VT/SESSION2_p5pcjkjc/Clicktracking.xlsx")
+clicktracking_5uwv0c88 <- read_excel("data/2018-09-20-VT/SESSION16_5uwv0c88/Clicktracking.xlsx")
+clicktracking_vjny1l7l <- read_excel("data/2018-09-20-VT/SESSION12_vjny1l7l/Clicktracking.xlsx")
 
 # Appending
 clicktracking <- bind_rows(clicktracking_i2vtto7j, clicktracking_jllmf4m8, clicktracking_zjb1wxmz, clicktracking_2o63t7n4, clicktracking_j0bmhbzp, clicktracking_hzopjb8y,

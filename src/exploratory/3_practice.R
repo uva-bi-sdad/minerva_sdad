@@ -9,12 +9,12 @@ library(forcats)
 #
 
 # Reading in
-practice_i2vtto7j <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION7_i2vtto7j/practice.xlsx")
-practice_jllmf4m8 <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION14_jllmf4m8/practice.xlsx")
-practice_zjb1wxmz <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION4_zjb1wxmz/practice.xlsx")
-practice_2o63t7n4 <- read_excel("/home/sdal/projects/minerva/data/2018-08-13-ESSL/SESSION13_2o63t7n4/practice.xlsx")
-practice_j0bmhbzp <- read_excel("/home/sdal/projects/minerva/data/2018-08-13-ESSL/SESSION22_j0bmhbzp/practice.xlsx")
-practice_hzopjb8y <- read_excel("/home/sdal/projects/minerva/data/2018-08-21-ESSL/SESSION1_hzopjb8y/practice.xlsx")
+practice_i2vtto7j <- read_excel("data/2018-06-13-ESSL/SESSION7_i2vtto7j/practice.xlsx")
+practice_jllmf4m8 <- read_excel("data/2018-06-13-ESSL/SESSION14_jllmf4m8/practice.xlsx")
+practice_zjb1wxmz <- read_excel("data/2018-06-13-ESSL/SESSION4_zjb1wxmz/practice.xlsx")
+practice_2o63t7n4 <- read_excel("data/2018-08-13-ESSL/SESSION13_2o63t7n4/practice.xlsx")
+practice_j0bmhbzp <- read_excel("data/2018-08-13-ESSL/SESSION22_j0bmhbzp/practice.xlsx")
+practice_hzopjb8y <- read_excel("data/2018-08-21-ESSL/SESSION1_hzopjb8y/practice.xlsx")
 
 # Appending practice data
 practice <- bind_rows(practice_i2vtto7j, practice_jllmf4m8, practice_zjb1wxmz, practice_2o63t7n4, practice_j0bmhbzp, practice_hzopjb8y)

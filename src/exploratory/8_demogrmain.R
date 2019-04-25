@@ -8,7 +8,7 @@ library(dplyr)
 # Merge demographics and main (many:1) ---------------------------------------------------------------------------------------------------------
 #
 
-expmain <- merge(experiments, mainClean, by = "participant.code")
+expmain <- merge(experiments, main, by = "participant.code")
 
 
 #

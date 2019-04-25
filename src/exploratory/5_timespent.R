@@ -9,19 +9,19 @@ library(gridExtra)
 #
 
 ## Read in timespent data
-timespent_i2vtto7j <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION7_i2vtto7j/TimeSpent.xlsx")
-timespent_jllmf4m8 <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION14_jllmf4m8/TimeSpent.xlsx")
-timespent_zjb1wxmz <- read_excel("/home/sdal/projects/minerva/data/2018-06-13-ESSL/SESSION4_zjb1wxmz/TimeSpent.xlsx")
-timespent_2o63t7n4 <- read_excel("/home/sdal/projects/minerva/data/2018-08-13-ESSL/SESSION13_2o63t7n4/TimeSpent.xlsx")
-timespent_j0bmhbzp <- read_excel("/home/sdal/projects/minerva/data/2018-08-13-ESSL/SESSION22_j0bmhbzp/TimeSpent.xlsx")
-timespent_hzopjb8y <- read_excel("/home/sdal/projects/minerva/data/2018-08-21-ESSL/SESSION1_hzopjb8y/TimeSpent.xlsx")
+timespent_i2vtto7j <- read_excel("data/2018-06-13-ESSL/SESSION7_i2vtto7j/TimeSpent.xlsx")
+timespent_jllmf4m8 <- read_excel("data/2018-06-13-ESSL/SESSION14_jllmf4m8/TimeSpent.xlsx")
+timespent_zjb1wxmz <- read_excel("data/2018-06-13-ESSL/SESSION4_zjb1wxmz/TimeSpent.xlsx")
+timespent_2o63t7n4 <- read_excel("data/2018-08-13-ESSL/SESSION13_2o63t7n4/TimeSpent.xlsx")
+timespent_j0bmhbzp <- read_excel("data/2018-08-13-ESSL/SESSION22_j0bmhbzp/TimeSpent.xlsx")
+timespent_hzopjb8y <- read_excel("data/2018-08-21-ESSL/SESSION1_hzopjb8y/TimeSpent.xlsx")
 
-timespent_8otz5sb0 <- read_excel("/home/sdal/projects/minerva/data/2018-09-15-CGU/SESSION10_8otz5sb0/TimeSpent.xlsx")
-timespent_xsrkblkf <- read_excel("/home/sdal/projects/minerva/data/2018-09-19-VT/SESSION9_xsrkblkf/TimeSpent.xlsx")
-timespent_tgfavzdh <- read_excel("/home/sdal/projects/minerva/data/2018-09-19-VT/SESSION8_tgfavzdh/TimeSpent.xlsx")
-timespent_p5pcjkjc <- read_excel("/home/sdal/projects/minerva/data/2018-09-19-VT/SESSION2_p5pcjkjc/TimeSpent.xlsx")
-timespent_5uwv0c88 <- read_excel("/home/sdal/projects/minerva/data/2018-09-20-VT/SESSION16_5uwv0c88/TimeSpent.xlsx")
-timespent_vjny1l7l <- read_excel("/home/sdal/projects/minerva/data/2018-09-20-VT/SESSION12_vjny1l7l/TimeSpent.xlsx")
+timespent_8otz5sb0 <- read_excel("data/2018-09-15-CGU/SESSION10_8otz5sb0/TimeSpent.xlsx")
+timespent_xsrkblkf <- read_excel("data/2018-09-19-VT/SESSION9_xsrkblkf/TimeSpent.xlsx")
+timespent_tgfavzdh <- read_excel("data/2018-09-19-VT/SESSION8_tgfavzdh/TimeSpent.xlsx")
+timespent_p5pcjkjc <- read_excel("data/2018-09-19-VT/SESSION2_p5pcjkjc/TimeSpent.xlsx")
+timespent_5uwv0c88 <- read_excel("data/2018-09-20-VT/SESSION16_5uwv0c88/TimeSpent.xlsx")
+timespent_vjny1l7l <- read_excel("data/2018-09-20-VT/SESSION12_vjny1l7l/TimeSpent.xlsx")
 
 ## Appending timespent data
 timespent <- bind_rows(timespent_i2vtto7j, timespent_jllmf4m8, timespent_zjb1wxmz, timespent_2o63t7n4, timespent_j0bmhbzp, timespent_hzopjb8y,
