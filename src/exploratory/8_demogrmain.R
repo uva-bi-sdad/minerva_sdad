@@ -27,13 +27,21 @@ pdemo <- expmain %>%
   group_by(participant.code) %>%
   do(head(., 1))
 
-ggplot(pdemo, aes(x = propyes)) +
-  geom_histogram() +
-  facet_wrap(~player.q6a_sexGender)
-  theme(legend.position = "none") + 
-  labs(title = "Histogram for proportion participated by gender", x = "Proportion participated across 15 rounds")
+# Gender
+ggplot(pdemo, aes(player.q6a_sexGender, propyes)) +
+  geom_boxplot()
 
+# Birth country
+ggplot(pdemo, aes(player.q2a_placeOfBirth_country, propyes)) +
+  geom_boxplot()
 
+# Marital status
+ggplot(pdemo, aes(player.q7_maritalStatus, propyes)) +
+  geom_boxplot()
+
+# Education
+ggplot(pdemo, aes(player.q8a_education_overview, propyes)) +
+  geom_boxplot()
 
 #
 # Trust & payoff ---------------------------------------------------------------------------------------------------------
