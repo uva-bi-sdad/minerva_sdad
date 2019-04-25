@@ -1,14 +1,38 @@
 library(dplyr)
+library(ggplot2)
 
-# Note: get data to link by executing 0_readmerge.R ("experiments" dataframe) and 4_main.R (mainClean dataframe)
+# Note: get data to link by executing 0_readmerge.R ("experiments" dataframe) and 4_main.R ("main" dataframe)
 
-# THIS DOESN'T WORK YET
+# IN PROGRESS
 
 #
 # Merge demographics and main (many:1) ---------------------------------------------------------------------------------------------------------
 #
 
 expmain <- merge(experiments, main, by = "participant.code")
+
+  
+#
+# Participation trends by demographics ---------------------------------------------------------------------------------------------------------
+#
+
+expmain <- expmain %>% group_by(participant.code) %>%
+  mutate (nyes = sum(player.participate), 
+          propyes = nyes / 15)
+
+pdemo <- expmain %>%
+  select(participant.code, propyes, player.q1_birthYear, player.q2a_placeOfBirth_country, player.q6a_sexGender,
+         player.q7_maritalStatus, player.q8a_education_overview, player.q9_major, player.q10a_subject_econ, 
+         player.q10b_subject_finance, player.q10c_subject_stat, player.q11_military_service) %>%
+  group_by(participant.code) %>%
+  do(head(., 1))
+
+ggplot(pdemo, aes(x = propyes)) +
+  geom_histogram() +
+  facet_wrap(~player.q6a_sexGender)
+  theme(legend.position = "none") + 
+  labs(title = "Histogram for proportion participated by gender", x = "Proportion participated across 15 rounds")
+
 
 
 #
